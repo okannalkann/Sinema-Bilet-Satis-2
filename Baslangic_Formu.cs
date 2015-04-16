@@ -25,7 +25,7 @@ namespace Sinema_Bilet_Satis
                 con.Open();
                 SqlParameter prm1 = new SqlParameter("@P1", txtYonetimKullanıcıAdı.Text);
                 SqlParameter prm2 = new SqlParameter("@P2", txtYonetimSifre.Text);
-                string sql = "select * FROM Yonetim_Calısanı WHERE yonetim_k_adi=@P1 and yonetim_sifre=@P2";
+                string sql = "select * FROM Yonetim_Calisani WHERE k_adi=@P1 and sifre=@P2";
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.Parameters.Add(prm1);
                 cmd.Parameters.Add(prm2);
@@ -45,11 +45,12 @@ namespace Sinema_Bilet_Satis
                 {
                     MessageBox.Show("Veritabanında böyle bir kullanıcı bulunamadı");
                     con.Close();
-                }
+                } con.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                con.Close();
             }
             
         }

@@ -42,7 +42,7 @@
             this.comboFilmAdi.FormattingEnabled = true;
             this.comboFilmAdi.Location = new System.Drawing.Point(136, 39);
             this.comboFilmAdi.Name = "comboFilmAdi";
-            this.comboFilmAdi.Size = new System.Drawing.Size(121, 21);
+            this.comboFilmAdi.Size = new System.Drawing.Size(99, 21);
             this.comboFilmAdi.TabIndex = 0;
             this.comboFilmAdi.Click += new System.EventHandler(this.comboFilmAdi_Click);
             // 
@@ -51,7 +51,7 @@
             this.comboSalonAdi.FormattingEnabled = true;
             this.comboSalonAdi.Location = new System.Drawing.Point(136, 66);
             this.comboSalonAdi.Name = "comboSalonAdi";
-            this.comboSalonAdi.Size = new System.Drawing.Size(80, 21);
+            this.comboSalonAdi.Size = new System.Drawing.Size(99, 21);
             this.comboSalonAdi.TabIndex = 1;
             this.comboSalonAdi.Click += new System.EventHandler(this.comboSalonAdi_Click);
             // 
@@ -66,7 +66,7 @@
             "19:00"});
             this.comboSeans.Location = new System.Drawing.Point(136, 93);
             this.comboSeans.Name = "comboSeans";
-            this.comboSeans.Size = new System.Drawing.Size(80, 21);
+            this.comboSeans.Size = new System.Drawing.Size(99, 21);
             this.comboSeans.TabIndex = 2;
             // 
             // label1
@@ -108,7 +108,7 @@
             // Bilet_Al
             // 
             this.Bilet_Al.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Bilet_Al.Location = new System.Drawing.Point(263, 39);
+            this.Bilet_Al.Location = new System.Drawing.Point(284, 39);
             this.Bilet_Al.Name = "Bilet_Al";
             this.Bilet_Al.Size = new System.Drawing.Size(114, 48);
             this.Bilet_Al.TabIndex = 6;
@@ -122,7 +122,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sinema_Bilet_Satis.Properties.Resources.Gentle_breeze_1366x768_hd_laptops;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(441, 292);
+            this.ClientSize = new System.Drawing.Size(428, 165);
             this.Controls.Add(this.Bilet_Al);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
